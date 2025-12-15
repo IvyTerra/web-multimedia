@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia</title>
+    <link rel="stylesheet" href="5-3-6-vezbe-multimedia2.css">
+</head>
+
+<body>
+    <h1>Multimedia</h1>
+    <section>
+        <h3>1. Audio: autoplay, muted, controls</h3>
+        <p>Embedded audio file</p>
+
+        <audio controls autoplay muted>
+            <source src="https://cdn.jsdelivr.net/gh/IvyTerra/web-multimedia@main/cinimatic-synthwave-157123.mp3"
+                type="audio/mpeg">
+            <source src="https://cdn.jsdelivr.net/gh/IvyTerra/web-multimedia@main/cinimatic-synthwave-157123.mp3"
+                type="audio/ogg">
+            Your browser does not support the audio file.
+        </audio>
+        <!-- thanks to: https://pixabay.com/users/idoberg-34953295/ -->
+    </section>
+    <hr>
+    <section>
+        <h3>2. HTML audio player</h3>
+        <p>This audio player works in Chrome, Edge and Mozilla Firefox.</p>
+        <audio controls autoplay muted>
+            <source
+                src="https://cdn.jsdelivr.net/gh/IvyTerra/web-multimedia@main/christmas-jazz-christmas-holiday-347485.mp3"
+                type="audio/mpeg">
+            <source
+                src="https://cdn.jsdelivr.net/gh/IvyTerra/web-multimedia@main/christmas-jazz-christmas-holiday-347485.mp3"
+                type="audio/ogg">
+            Your browser does not support the audio file.
+        </audio>
+        <!-- thanks to: https://pixabay.com/users/tunetank-50201703/ -->
+    </section>
+    <hr>
+    <section>
+        <h3>3. HTML video player</h3>
+        <p>This video player works in Chrome, Edge and Mozilla Firefox.</p>
+        <video height="300" controls muted
+            poster="https://cdn.jsdelivr.net/gh/IvyTerra/web-multimedia@main/8437-209165711_medium-cover.png">
+            <source src="https://cdn.jsdelivr.net/gh/IvyTerra/web-multimedia@main/8437-209165711_medium.mp4"
+                type="video/mp4">
+            Your browser does not support this video file.
+        </video>
+        <!-- thanks to: https://pixabay.com/users/matthias_groeneveld-4535957/ -->
+    </section>
+    <hr>
+    <section>
+        <h3>4. WebVTT</h3>
+        <p>"Samurai pizza cats" video with .vtt file</p>
+        <video controls muted crossorigin="anonymous">
+            <source src="https://cdn.jsdelivr.net/gh/IvyTerra/web-multimedia@main/samurai-pizza-cats.mp4">
+            <track src="https://cdn.jsdelivr.net/gh/IvyTerra/web-multimedia@main/samurai-pizza-cats.en2.vtt"
+                kind="subtitles" label="English" default>
+            Your browser does not support this video file.
+        </video>
+        <!-- thanks to: https://subsource.net/subtitle/samurai-pizza-cats-season-1/english/2150997 -->
+    </section>
+    <hr>
+
+</body>
+
+</html>

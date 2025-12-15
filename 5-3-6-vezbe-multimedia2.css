@@ -1,0 +1,26 @@
+html {
+  margin: 30px;
+  text-align: center;
+  background-color: rgb(190, 219, 244);
+}
+section h3,
+section p {
+  margin: 0;
+  padding: 1rem;
+  line-height: 1.2;
+}
+section {
+  margin-bottom: 2rem;
+}
+video {
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+/* This exercise cannot run directly in CodePen because audio, video, and subtitle (.vtt) files need to be hosted online and in the same folder (especially for videos and .vtt files).
+
+I downloaded the audio and video files from Pixabay and uploaded them to a public GitHub repository. To make them accessible in HTML, I generated direct links using jsDelivr (go to Tools → GitHub and paste the repository link to get the CDN URLs).
+
+The <video> element initially showed a grey control bar and extra space above it. This was fixed by removing one of the dimensions and keeping only the height, which also properly centered the controls.
+
+I also converted the subtitle file to .vtt and adjusted the timing so the captions match the video. Everything can also be run locally with Live Server in VS Code, and works in Chrome, Edge, and Firefox. The original sources are documented in comments in the HTML. */
